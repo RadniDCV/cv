@@ -22,10 +22,13 @@ body{
 
 }
 .imgPer{
-    width: 300;
+    
     display: block;
     margin: 0px auto;
    }
+img{
+    width: 300;
+}
 .access{
     width: 150px;
     display: flex;
