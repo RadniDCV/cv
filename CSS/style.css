@@ -1,0 +1,74 @@
+:root{
+    --color1: #FEFBF3;
+    --color2: #F8F0DF;
+    --color3: #9D9D9D;
+    --color4: #79B4B7;
+    --color5: #110000;
+}
+
+
+
+*{
+    border:1px solid red;
+    margin-bottom: 0; 
+    font-family: sans-serif;
+    /*display: block;
+    margin: 0px auto;*/
+
+}
+body{
+    background:linear-gradient(to right, var(--color1),var(--color2));
+    color: var(--color5);
+
+}
+.imgPer{
+    display: block;
+    margin: 0px auto;
+   }
+.access{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;  
+    flex-direction: row;
+    padding: 2px;
+    margin: 0px auto;
+
+}   
+.imgCen{
+        width: 320px;
+        height: 320px;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50%;
+        object-fit: cover;
+ 
+}
+.namePersonal{
+    /*padding: 1px 5px 1px 5px;*/
+    
+    text-align: center;
+    margin-bottom: 0; 
+
+}
+.nameProfesion{
+    
+    
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.profileDetail{
+    padding: 10px;
+    background-color: var(--color4);
+ 
+}
+.experDe{
+    padding: 10px;
+    background-color: var(--color4);
+    color: var(--color3);
+}
+.detExpe{
+    padding: 10px;
+    background-color: var(--color4);
+ 
+}
