@@ -4,6 +4,8 @@
     --color3: #9D9D9D;
     --color4: #79B4B7;
     --color5: #110000;
+    --color6: #548285;
+    --color7: #d9eff4;
 }
 
 
@@ -16,15 +18,21 @@
     margin: 0px auto;*/
 
 }
+
 body{
     background:linear-gradient(to right, var(--color1),var(--color2));
-    color: var(--color5);
+    
 
 }
-.imgPer{
+.title_gen{
     
+    color: var(--color6);
+    background: var(--color7);
+}
+.imgPer{
     display: block;
     margin: 0px auto;
+    
    }
 img{
     width: 300px;
@@ -63,16 +71,16 @@ img{
 }
 .profileDetail{
     padding: 10px;
-    background-color: var(--color4);
+    background-color: var(--color2);
  
 }
 .experDe{
     padding: 10px;
-    background-color: var(--color4);
+    background-color: var(--color2);
     color: var(--color3);
 }
 .detExpe{
     padding: 10px;
-    background-color: var(--color4);
+    background-color: var(--color2);
  
 }
